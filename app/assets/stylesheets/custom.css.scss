@@ -1,0 +1,70 @@
+@import "bootstrap";
+
+
+body{
+	background-color: #FFFFFF;
+	font-family: 'droid_sansregular', helvetica;
+}
+
+
+#wrapper {
+	background-color: #222F38;
+	width: 960px;	
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+.row-fluid {
+	position: relative;
+	left: 330px;
+	top: 20px;
+}
+.span12 {
+	background-color: #F99E1E;
+	width: 960px;
+	margin-left: 0;
+	text-align: center;
+}
+
+.span12 h1 {
+	font-family: 'lobster_tworegular', helvetica, sans-serif;
+	margin: 1em;
+	color: #222F38;
+	font-size: 4em;
+
+}
+.span12 h6 {
+	font-size: 1em;
+
+}
+p {
+	color: #ffffff;
+
+}
+
+img {
+	width: 350px;
+}
+.btn a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.btn input {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+
+}
+
+
+.span6 {
+	padding-top: 20px;
+
+}

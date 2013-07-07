@@ -1,20 +1,27 @@
-<h1>Add a picture</h1>
-<%= link_to "Back to Pictures", pictures_url %>
+ 	<div class="span12"><h1>Add a picture</h1>
+ 		 	</div>
+ 							<%= link_to "Back to Pictures", pictures_url, :class => "btn btn-inverse"  %>
 
-<%= form_for @picture do |f| %>
-<p>
-	<%= f.label "artist" %><br>
-	<%= f.text_field "artist" %>
-</p>
-<p>
-	<%= f.label "title" %><br>
-	<%= f.text_field "title" %>
-</p>
-<p>
-	<%= f.label "url" %><br>
-	<%= f.text_field "url" %>
-</p>
-	<p>
-		<%= f.submit "Save" %>
-	</p>
-<% end %>
+
+<div class="row-fluid">
+      <div class="span6" style="margin-left: 50px;">
+				<%= form_for @picture do |f| %>
+				<p>
+					<%= f.label "artist" %>	<%= f.text_field "artist" %>
+				</p>
+				<p>
+					<%= f.label "title" %>
+					<%= f.text_field "title" %>
+				</p>
+				<p>
+					<%= f.label "url" %>
+					<%= f.text_field "url" %>
+				</p>
+
+					<div class="btn btn-warning">
+						<%= f.submit "save" %>
+					</div>
+				<% end %>
+			
+			</div>
+		</div>

@@ -1,6 +1,20 @@
-<h1>Pictures (<%= @pictures.length %>)</h1>
-<%= link_to "New Picture", "/pictures/new" %>
-<% @pictures.each do |picture| %>
-  <p><%= picture[:title] %>, <%= picture[:artist] %></p>
-  <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
-<% end %>
+ 	<div class="span12"><h1 style="margin-bottom:20px">Brazilian Artists</h1> 
+ 	<h6> <%= @pictures.length %> images</h6>	</div>
+ 	<%= link_to "Add New Picture", "/pictures/new", :class => "btn btn-inverse" %>
+
+
+	<div class="row-fluid">
+      <div class="span6">
+		<% @pictures.each do |picture| %>
+		<p><%= picture[:title] %>, <%= picture[:artist] %><br><br></p>
+  		<%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
+  			<br><br><br><br>
+  			<% end %>
+
+	</div>
+
+</div>
+
+
+
+
