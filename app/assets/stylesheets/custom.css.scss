@@ -14,9 +14,39 @@ body{
 	margin: 0 auto;
 }
 
+p {
+	color: #ffffff;
+	margin: 0
+
+
+}
+
+img{
+	max-width: 400px;
+
+}
+.btn a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.btn input {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+
+}
+
+
 .row-fluid {
 	position: relative;
-	margin-left: 1%;
+	margin-left: 4%;
 	top: 20px;
 	min-height: 400px;
 
@@ -39,47 +69,36 @@ body{
 	font-size: 1em;
 
 }
-p {
-	color: #ffffff;
 
-}
-
-
-.btn a {
-	text-decoration: none;
-	color: #ffffff;
-}
-
-a:hover {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-
-.btn input {
-	border: none;
-	background-color: transparent;
-	color: #ffffff;
-
-}
-
-
-.row-fluid .span4 {
-  min-height: 400px;
-  margin-left:1%;
-  *margin-left:1%;
-  width: 30%;
-}
-
-.span4 {
-	padding-top: 20px;
-	margin: 1%;
-}
 .row-fluid .span11:first-child {
 margin-left: 170px;
 }
+
 .row-fluid .span11 {
 	width: 600px;
 	position: relative;
 	padding-top: 20px;
 }
+
+.row-fluid .span6:first-child {
+margin-left: 350px;
+}
+
+.row-fluid .span4 {
+  // min-height: 400px;
+  margin-left:1%;
+  *margin-left:1%;
+  margin-bottom: 20px;
+  width: 30%;
+  overflow: hidden;
+}
+
+.image-container{
+	height: 250px;
+	width: 250px;
+}
+
+.span4 p {
+	line-height: 1em;
+}
+
