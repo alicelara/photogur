@@ -3,7 +3,7 @@
 
 body{
 	background-color: #FFFFFF;
-	font-family: 'droid_sansregular', helvetica;
+	font-family: 'quicksandbook', helvetica;
 }
 
 
@@ -29,7 +29,7 @@ body{
 }
 
 .span12 h1 {
-	font-family: 'lobster_tworegular', helvetica, sans-serif;
+	font-family: 'pacificoregular', helvetica, sans-serif;
 	margin: 1em;
 	color: #222F38;
 	font-size: 4em;
@@ -44,9 +44,7 @@ p {
 
 }
 
-img {
-	width: 300px;
-}
+
 .btn a {
 	text-decoration: none;
 	color: #ffffff;
@@ -76,4 +74,12 @@ a:hover {
 .span4 {
 	padding-top: 20px;
 	margin: 1%;
+}
+.row-fluid .span11:first-child {
+margin-left: 170px;
+}
+.row-fluid .span11 {
+	width: 600px;
+	position: relative;
+	padding-top: 20px;
 }
