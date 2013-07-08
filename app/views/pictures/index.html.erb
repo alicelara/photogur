@@ -4,16 +4,15 @@
 
 
 	<div class="row-fluid">
-      <div class="span6">
 		<% @pictures.each do |picture| %>
+	  <div class="span4">
 		<p><%= picture[:title] %>, <%= picture[:artist] %><br><br></p>
   		<%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
   			<br><br><br><br>
+  	</div>
   			<% end %>
 
 	</div>
-
-</div>
 
 
 

@@ -16,8 +16,10 @@ body{
 
 .row-fluid {
 	position: relative;
-	left: 330px;
+	margin-left: 1%;
 	top: 20px;
+	min-height: 400px;
+
 }
 .span12 {
 	background-color: #F99E1E;
@@ -43,7 +45,7 @@ p {
 }
 
 img {
-	width: 350px;
+	width: 300px;
 }
 .btn a {
 	text-decoration: none;
@@ -64,7 +66,14 @@ a:hover {
 }
 
 
-.span6 {
-	padding-top: 20px;
+.row-fluid .span4 {
+  min-height: 400px;
+  margin-left:1%;
+  *margin-left:1%;
+  width: 30%;
+}
 
+.span4 {
+	padding-top: 20px;
+	margin: 1%;
 }
