@@ -6,7 +6,7 @@
 	<div class="row-fluid">
 		<% @pictures.each do |picture| %>
 	  <div class="span4 image-container">
-		<p><%= picture[:title] %>, <%= picture[:artist] %><br><br></p>
+		<p><%= picture[:title] %> - <%= picture[:artist] %><br><br></p>
   		<%= link_to image_tag(picture.url), "/pictures/#{picture.id}", :class => "image-max" %>
   			<br><br><br><br>
   	</div>
